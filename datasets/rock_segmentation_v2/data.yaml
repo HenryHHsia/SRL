@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rock']
+
+roboflow:
+  workspace: srlresearch
+  project: d435_25degree_hd_6fps_nano_full_high
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/srlresearch/d435_25degree_hd_6fps_nano_full_high/dataset/2
