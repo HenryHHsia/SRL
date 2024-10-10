@@ -1,4 +1,4 @@
-# SRL
+# Space Robotics Lab Research 2024
 
 Research on real-time machine learning models for object detection done under the guidance of Professors Kazuya Yoshida and Shreya Santra at the Space Robotics Laboratory in Tohoku University.
 
