@@ -1,0 +1,20 @@
+
+import ultralytics
+ultralytics.checks()
+
+from ultralytics import YOLO
+import numpy
+
+# model = YOLO('/home/lunar5/henry_ws/VSCode/best_model_100epochs.pt')
+
+model = YOLO('/Users/henry/Desktop/VSCode Lunar5/best_model_100epochs.pt')
+
+# input = '/home/lunar5/henry_ws/VSCode/IsaacSimPOV1.mp4'
+
+input = '/Users/henry/Desktop/VSCode Lunar5/Screen Shot 2024-08-05 at 3.53.05 AM.png'
+
+results = model.predict(source = input,
+                        save = True,
+                        conf = 0.1)
+
+
